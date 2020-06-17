@@ -70,7 +70,7 @@ export class Logger {
         return remoteAddressString;
     }
 
-    remoteUser() : string {
+    remoteUser() : any {
         const credentials: any = auth(this._request);
         return credentials ? credentials.name : "-";
     }
