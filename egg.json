@@ -1,0 +1,20 @@
+{
+    "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
+    "name": "organ",
+    "entry": "./mod.ts",
+    "description": "Organ is a logging middleware for the Oak web framework. It is based on the Morgan library for Express in NodeJS.",
+    "homepage": "https://github.com/denjucks/organ",
+    "version": "1.1.1",
+    "files": [
+      "*",
+      "*/**/*"
+    ],
+    "ignore": [
+      "./.git/**"
+    ],
+    "checkFormat": "deno fmt",
+    "checkTests": "deno test -A",
+    "checkInstallation": true,
+    "check": true,
+    "unlisted": false
+}
